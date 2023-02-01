@@ -1,0 +1,6 @@
+torch
+torchvision
+numpy
+scikit-image
+tqdm
+prefetch_generator
