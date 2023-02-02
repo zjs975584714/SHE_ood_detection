@@ -47,5 +47,6 @@ python test_score_ood_detection.py --dataset xxx(cifar10/cifar100) --model xxx(r
 ### Evaluation of ImageNet-1k
 We use ResNet-50 as the backbone network to evaluate the OOD detection performance. And the command is as following:
 ```
-
+python generate_stored_pattern_imagenet.py
+python test_score_ood_detection_imagenet.py
 ```
